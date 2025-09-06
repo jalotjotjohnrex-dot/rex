@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Rex M. Jalotjot - CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">POGI</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="hamburger-nav">
+        <div class="logo">JOHN REX M. JALOTJOT</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+                <li><a href="#achievements" onclick="toggleMenu()">Achievements</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/Profile.jpg" alt="John Rex's profile pic">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">JOHN REX M. JALOTJOT</h1>
+            <p class="section__text__p2">4th Year Computer Engineering Student</p>
+            <div class="btn-container">
+                <a href="./assets/Jalotjot, John Rex M._CV.pdf" download class="btn btn-color-2">Download CV</a>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/github.png" alt="My GitHub Profile" class="icon" onclick="location.href='#'">
+                <img src="./assets/FB.jpg" alt="My Facebook Profile" class="icon" onclick="location.href='https://www.facebook.com/share/17PjD7qYFY/'">
+                <img src="./assets/IG.jpg" alt="My Instagram Profile" class="icon" onclick="location.href='https://www.instagram.com/rexilyn69?igsh=YzljYTk1ODg3Zg=='">
+            </div>
+        </div>
+        <img src="./assets/arrow.png" class="icon arrow" onclick="location.href='#about'"/>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get to know more</p>
+        <h1 class="title">About me</h1>
+        <div class="section-container">
+            <div class="about__pic-container">
+                <img src="./assets/about_pic.jpg" alt="profile pic" class="about-pic"/>
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" class="icon"/>
+                        <h3>About Me</h3>
+                        <p>I am a dedicated and goal-oriented Computer Engineering 4th year student at Marinduque State University. Passionate about developing innovative solutions in both hardware and software, I enjoy working on projects that integrate embedded systems, automation, and real-world applications. My strong foundation in programming, circuit design, and teamwork allows me to adapt quickly to challenges and contribute effectively to collaborative projects. I am eager to expand my knowledge and skills to create impactful technologies that benefit society. Academically, I focus on building practical skills through projects, research, and continuous learning. I enjoy tackling challenges that require logical thinking, creativity, and innovation. Outside academics, I explore hobbies such as programming side projects, reading about new technologies, and engaging in team-based activities, which help strengthen my technical expertise and collaborative mindset. These interests not only fuel my growth as a future engineer but also prepare me to adapt and excel in the rapidly evolving world of technology.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" class="icon arrow" onclick="location.href='#education'"/>
+    </section>
+    <section id="education">
+        <p class="section__text__p1">My</p>
+        <h1 class="title">Education</h1>
+        <div class="experience-detail-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Senior High School</h2>
+                    <div class="article-container">
+                        <article>
+                            <div>
+                                <h3>Marinduque National High School</h3>
+                                <p>2020 – 2022<br/>With Honors</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Junior High School</h2>
+                    <div class="article-container">
+                        <article>
+                            <div>
+                                <h3>Ilaya National High School</h3>
+                                <p>2018 – 2020<br/>With Honors</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Primary Education</h2>
+                    <div class="article-container">
+                        <article>
+                            <div>
+                                <h3>Balimbing Elementary School</h3>
+                                <p>2013 – 2016<br/>With Honors</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" class="icon arrow" onclick="location.href='#achievements'"/>
+    </section>
+    <section id="achievements">
+        <p class="section__text__p1">My</p>
+        <h1 class="title">Achievements & Certifications</h1>
+        <div class="experience-detail-container">
+            <div class="details-container">
+                <h2 class="experience-sub-title">Achievements & Certifications</h2>
+                <ul class="list-container">
+                    <li>Civil Service Exam Passer - Professional Level (May 2023)</li>
+                    <li>2022 Regional CpE Challenge Participant – MLBB</li>
+                    <li>10 Hours BOHS Training Course for SO1 (April 2025)</li>
+                    <li>Toxic Productivity: When Working Hard Becomes Harmful (April, 2025)</li>
+                    <li>Fundamentals of Image processing using Open CV and Matlab (2023)</li>
+                </ul>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" class="icon arrow" onclick="location.href='#projects'"/>
+    </section>
+
+    <!-- ===================== MY PROJECTS ===================== -->
+    <section id="projects">
+        <p class="section__text__p1">My</p>
+        <h1 class="title">Projects</h1>
+        <div class="projects-container">
+            <div class="project">
+                <img src="./assets/project1.jpg" alt="Project 1" class="project-img">
+                <p class="project-title">Project 1</p>
+            </div>
+            <div class="project">
+                <img src="./assets/project2.jpg" alt="Project 2" class="project-img">
+                <p class="project-title">Project 2</p>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" class="icon arrow" onclick="location.href='#skills'"/>
+    </section>
+
+    <section id="skills">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="experience-detail-container">
+            <div class="details-container">
+                <h2 class="experience-sub-title">Technical Skills</h2>
+                <ul class="list-container">
+                    <li>Embedded Systems (Arduino, Raspberry Pi, Microcontrollers)</li>
+                    <li>Python Programming</li>
+                    <li>C/C++</li>
+                    <li>HTML/CSS/JavaScript</li>
+                    <li>Cybersecurity Basics</li>
+                </ul>
+            </div>
+            <div class="details-container">
+                <h2 class="experience-sub-title">Soft Skills</h2>
+                <ul class="list-container">
+                    <li>Team Collaboration</li>
+                    <li>Problem-Solving</li>
+                    <li>Critical Thinking</li>
+                    <li>Time Management</li>
+                    <li>Project Coordination</li>
+                    <li>Adaptability in fast-paced environments</li>
+                </ul>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" class="icon arrow" onclick="location.href='#contact'"/>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon"/>
+                <p><a href="mailto:jalotjot.johnrex@marsu.edu.ph">Email</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/FB.jpg" alt="Facebook icon" class="icon contact-icon"/>
+                <p><a href="https://www.facebook.com/share/17PjD7qYFY/">Facebook</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/IG.jpg" alt="Instagram icon" class="icon contact-icon"/>
+                <p><a href="https://www.instagram.com/rexilyn69?igsh=YzljYTk1ODg3Zg==">Instagram</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 JOHN REX M. JALOTJOT. All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

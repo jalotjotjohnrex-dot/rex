@@ -1,0 +1,74 @@
+/* Tablet Screens (1024px and below) */
+@media screen and (max-width: 1024px) {
+  #profile,
+  #about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .section__pic-container {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 2rem;
+  }
+
+  .about__pic-container img {
+    max-width: 90%;
+    height: auto;
+  }
+
+  .projects-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project {
+    flex: 0 0 80%;
+    max-width: 80%;
+  }
+
+  .section__text h1 {
+    font-size: 2.5rem;
+  }
+}
+
+/* Mobile Screens (600px and below) */
+@media screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .section__pic-container {
+    width: 280px;
+    height: 280px;
+  }
+
+  .about__pic-container img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .project-img {
+    max-width: 90%;
+    height: 200px;
+  }
+
+  .section__text h1 {
+    font-size: 1.8rem;
+  }
+
+  .about__content h2 {
+    font-size: 1.5rem;
+  }
+
+  .section__text p,
+  .about__content p {
+    font-size: 0.9rem;
+  }
+}
